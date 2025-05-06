@@ -1,4 +1,3 @@
-# Stock-Trend-Indicator
-Machine Learning Web app to visualize stock movement and predict future trend
+**Stock Trend Indicator**
 
-run using   streamlit run app.py
+A simple and interactive web app for visualizing and analyzing historical stock price trends using moving averages and deep learning-based predictions.
