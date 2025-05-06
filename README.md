@@ -11,3 +11,17 @@ Visualizes price trends with 100-day and 200-day moving averages.
 Predicts future trends using a pre-trained Keras LSTM model.
 
 Provides a clean, interactive interface via Streamlit.
+
+**Technologies Used**
+
+Python: Core language.
+
+Streamlit: Web UI framework for Python.
+
+pandas & NumPy: Data handling and numerical operations.
+
+matplotlib: For charting price trends.
+
+pandas_datareader: To fetch stock data.
+
+Keras (TensorFlow backend): For loading the LSTM model and making predictions.
