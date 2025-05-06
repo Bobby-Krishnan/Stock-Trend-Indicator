@@ -31,3 +31,16 @@ A simple and interactive web app for visualizing and analyzing historical stock 
    ```bash
    git clone https://github.com/Bobby-Krishnan/Stock-Trend-Indicator.git
    cd Stock-Trend-Indicator
+   ```
+
+2. **Install required packages**
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Run the app**
+
+   ```bash
+   streamlit run app.py
+   ```
