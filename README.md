@@ -1,29 +1,33 @@
-**Stock Trend Indicator**
+# Stock Trend Indicator
 
 A simple and interactive web app for visualizing and analyzing historical stock price trends using moving averages and deep learning-based predictions.
 
-**Features**
+---
 
-Fetches real-time historical stock data using Stooq via pandas_datareader.
+## Features
 
-Visualizes price trends with 100-day and 200-day moving averages.
+- Fetches real-time historical stock data using Stooq via `pandas_datareader`.
+- Visualizes price trends with 100-day and 200-day moving averages.
+- Predicts future trends using a pre-trained Keras LSTM model.
+- Provides a clean, interactive interface via Streamlit.
 
-Predicts future trends using a pre-trained Keras LSTM model.
+---
 
-Provides a clean, interactive interface via Streamlit.
+## Technologies Used
 
-**Technologies Used**
+- **Python** – Core language.
+- **Streamlit** – Web UI framework for Python.
+- **pandas** & **NumPy** – Data handling and numerical operations.
+- **matplotlib** – For charting price trends.
+- **pandas_datareader** – To fetch stock data.
+- **Keras** (with TensorFlow backend) – For loading and using the LSTM model.
 
-Python: Core language.
+---
 
-Streamlit: Web UI framework for Python.
+## How to Run
 
-pandas & NumPy: Data handling and numerical operations.
+1. **Clone the repo:**
 
-matplotlib: For charting price trends.
-
-pandas_datareader: To fetch stock data.
-
-Keras (TensorFlow backend): For loading the LSTM model and making predictions.
-
-
+   ```bash
+   git clone https://github.com/Bobby-Krishnan/Stock-Trend-Indicator.git
+   cd Stock-Trend-Indicator
